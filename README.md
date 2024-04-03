@@ -2,9 +2,11 @@
 
 
 ## 1、简述
-    铁蛋项目基于ROS2的galactic版本进行开发。项目已开源至：https://github.com/MiRoboticsLab/cyberdog_ws。 进行项目开发前可以详细浏览项目博客：https://miroboticslab.github.io/blogs/#/。 进行铁蛋项目二次开发需要具备一定的代码开发能力和ROS2的基础知识。
+本项目主要示例了如何开发一个调用铁蛋语音、运动等能力的ROS2功能包。
 
-    阅读铁蛋项目博客和项目源码时，可优先关注铁蛋项目的**主要功能和ROS接口**以便于快速上手开发调试。关键接口： https://miroboticslab.github.io/blogs/#/cn/developer_guide
+铁蛋项目基于ROS2的galactic版本进行开发。项目已开源至：https://github.com/MiRoboticsLab/cyberdog_ws。 进行项目开发前可以详细浏览项目博客：https://miroboticslab.github.io/blogs/#/。 进行铁蛋项目二次开发需要具备一定的代码开发能力和ROS2的基础知识。
+
+阅读铁蛋项目博客和项目源码时，可优先关注铁蛋项目的**主要功能和ROS接口**以便于快速上手开发调试。关键接口： https://miroboticslab.github.io/blogs/#/cn/developer_guide
 
 ## 2、开发
 **主要流程为：**     
