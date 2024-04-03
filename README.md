@@ -17,7 +17,7 @@
 
 **关于源码开发的一些说明**  
 1）头文件，主要包括：ROS相关的头文件、ROS接口相关头文件、C++及其他第三方库头文件等。**如果要使用ROS的相关话题、服务等，必须导入ROS自带的头文件或铁蛋项目的自定义头文件**；  
-2）ROS节点开发可参考：https://github.com/ros2/demos/tree/galactic/demo_nodes_cpp或已开源的铁蛋项目中的ROS功能包；  
+2）ROS节点开发可参考：https://github.com/ros2/demos/tree/galactic/demo_nodes_cpp 或已开源的铁蛋项目中的ROS功能包；  
 3）CMakeLists编写可参考：https://docs.ros.org/en/galactic/How-To-Guides/Ament-CMake-Documentation.html 或 https://docs.ros.org/en/galactic/How-To-Guides/Ament-CMake-Python-Documentation.html 。基于C++开发的ROS功能包参考第一条链接，基于python开发的ROS功能包参考第二条链接。  
 4）**铁蛋的AI相机、realease相机、鱼眼相机等默认情况下不会产生数据**，需要通过服务请求或lifecycle的状态设置来打开，打开相机后才会有图像数据发布出来。  
 
