@@ -33,12 +33,14 @@ source install/setup.bash
 
 // 3.运行节点
 ros2 run cyberdog_example cyberdog_example -ros-args -r __ns:=/`ros2 node list | grep "mi_" | head -n 1 | cut -f 2 -d "/"`
+
+// 4. 使用
+运行ros2 shell指令请求服务，或订阅查看话题。使用AI相机需要先请求打开AI相机的服务，相机数据才会被发布出来。
 ```
 
 说明：-ros-args -r __ns:=/`ros2 node list | grep "mi_" | head -n 1 | cut -f 2 -d "/"` 的作用是添加命名空间，以保证cyberdog_example节点能与NX板上已运行起来的ROS节点进行数据交互
 
-// 4. 使用
-运行ros2 shell指令请求服务，或订阅查看话题。使用AI相机需要先请求打开AI相机的服务，相机数据才会被发布出来。
+
 
 其他一些指令说明:
 ```
